@@ -1,0 +1,33 @@
+{
+  "name": "language-manager-ts",
+  "version": "1.1.6",
+  "description": "A language manager for web application with typescript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreabbondanza/language-manager.git"
+  },
+  "keywords": [
+    "multilanguage",
+    "language",
+    "reactjs",
+    "vuejs",
+    "javascript",
+    "typescript",
+    "localization"
+  ],
+  "author": "Andrea Vincenzo Abbondanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreabbondanza/language-manager/issues"
+  },
+  "homepage": "https://github.com/andreabbondanza/language-manager#readme",
+  "dependencies": {
+    "@types/node": "^14.14.7",
+    "dewlinq": "^1.0.3"
+  }
+}
