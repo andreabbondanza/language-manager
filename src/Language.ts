@@ -7,13 +7,16 @@ export class Language implements ILanguage
     }
     public get(key: string): string
     {
-        return this.dictionary[key];
-    }    
+        if (this.dictionary[key])
+            return this.dictionary[key];
+        return key;
+    }
 }
 
-export class Neutral extends Language{
+export class Neutral extends Language
+{
     public language = () => "neutral";
     public dictionary = {
-       
+
     }
 }

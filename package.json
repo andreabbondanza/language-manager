@@ -1,6 +1,6 @@
 {
   "name": "language-manager-ts",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "A language manager for web application with typescript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
